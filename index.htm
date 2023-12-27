@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>My best JavaScript file</title>
+		<script src="./src/master.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<h1>Это решалка дробных чисел</h1>
+		</header>
+		<div class="main" style="display: flex; justify-content: space-between; width: 750px;">
+			<div style="display: flex; flex-direction: column; width: 300px;">
+				<input id="inputFirst1st">
+				<hr style="width: 300px">	
+				<input id="inputSecond1st">
+			</div>
+			<select id="selectSymbol">
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value=":">:</option>
+			</select>
+			<div style="display: flex; flex-direction: column; width: 300px;">
+				<input id="inputFirst2nd">
+				<hr style="width: 300px;">
+				<input id="inputSecond2nd">
+			</div>
+			<div style="display: flex;">
+				<p onclick="Solution()">=</p>
+				<p id="solution">?</p>
+			</div>
+		</div>
+		<footer>
+
+		</footer>
+	</body>
+
+</html>
